@@ -16,6 +16,7 @@ html,
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
+  color: #484848;
 }
 
 .container {
@@ -113,13 +114,11 @@ body {
 
 .header-content h1 {
   font-size: 1.4rem;
-  color: #484848;
 }
 
 .header-content h2 {
   font-size: 0.8rem;
   font-weight: 500;
-  color: #484848;
   padding: 1rem 0;
 }
 
@@ -149,8 +148,8 @@ body {
 /* Setup practice section */
 .practice {
   background-color: #f0f0f0;
-  /* border: 1px solid black; */
   padding: 0 1.5rem;
+
 }
 
 .practice img {
@@ -175,7 +174,6 @@ body {
 }
 
 .events {
-  background-color: #f0f0f0;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   border-left: 1px solid #e7e7e7;
@@ -191,6 +189,10 @@ body {
   /* padding: 1rem 1rem; */
 }
 
+.event-block:last-child{
+    background-color: #f0f0f0;
+}
+
 .event-block img {
   /* box-sizing: border-box; */
   width: 100%;
@@ -201,6 +203,10 @@ body {
 
 .event-block-content {
   margin-left: 1rem;
+}
+
+.event-block-content a{
+    color:#6092d0;
 }
 
 .event-block-content > * {
@@ -281,7 +287,6 @@ body {
   display: grid;
   grid-template-columns: 0.6fr 0.4fr;
   gap: 24px;
-  color: #484848;
   /* border: 1px solid black; */
 }
 
@@ -347,6 +352,7 @@ footer {
   font-size: 0.8rem;
   padding: 1rem 0 2rem 1.5rem;
   border-top: 1px solid #e7e7e7;
+  color: #828282;
 }
 
 footer ul {
@@ -357,7 +363,7 @@ footer ul {
 footer a {
   padding: 0 0.5rem;
   text-decoration: none;
-  color: #303646;
+  color: #828282;
 }
 
 footer a:hover {
@@ -470,6 +476,11 @@ footer a:hover {
     margin-left: 1rem;
   }
 
+.event-block-content a{
+    color:#6092d0;
+    /* border: 1px solid black; */
+}
+
   .event-block {
     gap: 0;
   }
@@ -506,7 +517,7 @@ footer a:hover {
   }
 
   .learning-container-mobile a {
-    color: black;
+    color: #484848;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
@@ -539,7 +550,6 @@ footer a:hover {
   footer {
     padding: 1rem 0 1rem 1.5rem;
     margin-top: 1.5rem;
-    /* border-top: 1px solid #e7e7e7; */
   }
 }
 /* End of mobile section */
